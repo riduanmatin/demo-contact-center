@@ -1,0 +1,106 @@
+body {
+    background: url(../Css/Gambar/begron.png)
+}
+
+.chat-btn {
+    background-image: url(../Css/Gambar/Logo_ecentrix.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+    cursor: pointer
+}
+
+.chat-btn .close {
+    display: none
+}
+
+.chat-btn i {
+    transition: all 0.9s ease
+}
+
+#check:checked~.chat-btn i {
+    display: block;
+    pointer-events: auto;
+    transform: rotate(180deg)
+}
+
+#check:checked~.chat-btn .comment {
+    display: none
+}
+
+.chat-btn i {
+    font-size: 22px;
+    color: #ffffff !important
+}
+
+.chat-btn {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background-color: blue;
+    color: #ffffff;
+    font-size: 22px;
+    border: none
+}
+
+.wrapper {
+    position:fixed;
+    right: 20px;
+    bottom: 60px;
+    width: 450px;
+    height: 650px;
+    background: url(../Css/Gambar/begron_login.png);
+    background-color: #6C6CBA;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    opacity: 0;
+    transition: all 0.4s,
+}
+
+#check:checked~.wrapper {
+    opacity: 1
+}
+
+.header {
+    padding: 10px;
+    background-color: #08084A;
+    border-radius: 20px 20px 0px 0px;
+    margin-bottom: 5px;
+    color: #FEA02E
+}
+
+.chat-form {
+    padding: 70px
+}
+
+.chat-form input,
+textarea,
+button {
+    margin-bottom: 20px
+}
+
+.chat-form textarea {
+    resize:both
+}
+
+.form-control:focus,
+.btn:focus {
+    box-shadow: none
+}
+
+.btn,
+.btn:focus,
+.btn:hover {
+    background-color: #FEA02E;
+    border: blue
+}
+
+#check {
+    display: none !important
+}

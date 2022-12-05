@@ -32,7 +32,7 @@ body {
     box-shadow: 10px 15px 15px rgba(0, 0, 0, 0.25);
     overflow: hidden;
   }
-  .v145_576 {
+  .background_chat_home {
     width: 688px;
     height: 847px;
     background-image: url(../Css/Gambar/begron_login.png);
@@ -64,12 +64,12 @@ body {
     left: 600px; */
   }
   .v3_61 {
-    width: 592px;
-    height: 71px;
+    width: 300px;
+    height: 35.47px;
     background: rgba(255,255,255,1);
     opacity: 1;
     position: absolute;
-    top: 607px;
+    top: 400px;
     left: 58px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -236,19 +236,19 @@ body {
     left: 55px;
     overflow: hidden;
   }
-  .v69_413 {
+  .caption_home_1 {
     width: 217px;
     color: rgba(255,255,255,1);
     position: absolute;
     top: 0px;
     left: 1px;
     font-family: Montserrat;
-    font-weight: SemiBold;
-    font-size: 25px;
+    font-weight: Bold;
+    font-size: 35px;
     opacity: 1;
     text-align: left;
   }
-  .v69_414 {
+  .caption_home_2 {
     width: 400px;
     color: rgba(255,255,255,1);
     position: absolute;
@@ -256,7 +256,7 @@ body {
     left: 0px;
     font-family: Montserrat;
     font-weight: Regular;
-    font-size: 15px;
+    font-size: 20px;
     opacity: 1;
     text-align: left;
   }
@@ -288,109 +288,3 @@ body {
 
 
 
-/* body {
-    background: url(../Css/Gambar/begron.png)
-}
-
-.chat-btn {
-    background-image: url(../Css/Gambar/Logo_ecentrix.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-    right: 15px;
-    bottom: 10px;
-    cursor: pointer
-}
-
-.chat-btn .close {
-    display: none
-}
-
-.chat-btn i {
-    transition: all 0.9s ease
-}
-
-#check:checked~.chat-btn i {
-    display: block;
-    pointer-events: auto;
-    transform: rotate(180deg)
-}
-
-#check:checked~.chat-btn .comment {
-    display: none
-}
-
-.chat-btn i {
-    font-size: 22px;
-    color: #ffffff !important
-}
-
-.chat-btn {
-    width: 50px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50px;
-    background-color: blue;
-    color: #ffffff;
-    font-size: 22px;
-    border: none
-}
-
-.wrapper {
-    position:fixed;
-    right: 20px;
-    bottom: 60px;
-    width: 450px;
-    height: 650px;
-    background: url(../Css/Gambar/begron_login.png);
-    background-color: #6C6CBA;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 20px;
-    opacity: 0;
-    transition: all 0.4s,
-}
-
-#check:checked~.wrapper {
-    opacity: 1
-}
-
-.header {
-    padding: 10px;
-    background-color: #08084A;
-    border-radius: 20px 20px 0px 0px;
-    margin-bottom: 5px;
-    color: #FEA02E
-}
-
-.chat-form {
-    padding: 70px
-}
-
-.chat-form input,
-textarea,
-button {
-    margin-bottom: 20px
-}
-
-.chat-form textarea {
-    resize:both
-}
-
-.form-control:focus,
-.btn:focus {
-    box-shadow: none
-}
-
-.btn,
-.btn:focus,
-.btn:hover {
-    background-color: #FEA02E;
-    border: blue
-}
-
-#check {
-    display: none !important
-} */

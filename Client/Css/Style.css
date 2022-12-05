@@ -32,15 +32,9 @@ body {
     box-shadow: 10px 15px 15px rgba(0, 0, 0, 0.25);
     overflow: hidden;
   }
-<<<<<<< HEAD
   .background_chat_home {
     width: 688px;
     height: 847px;
-=======
-  .v145_576 {
-    width: 500px;
-    height: 600px;
->>>>>>> a7b75df935cd40ea3e8890697b1a43b623756c03
     background-image: url(../Css/Gambar/begron_login.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -243,32 +237,23 @@ body {
     overflow: hidden;
   }
   .caption_home_1 {
-    width: 217px;
+    width: 400px;
     color: rgba(255,255,255,1);
     position: absolute;
     top: 0px;
     left: 1px;
     font-family: Montserrat;
-<<<<<<< HEAD
     font-weight: Bold;
-=======
-    font-weight: SemiBold;
->>>>>>> a7b75df935cd40ea3e8890697b1a43b623756c03
     font-size: 35px;
     opacity: 1;
     text-align: left;
   }
-<<<<<<< HEAD
   .caption_home_2 {
     width: 400px;
-=======
-  .v69_414 {
-    width: 300px;
->>>>>>> a7b75df935cd40ea3e8890697b1a43b623756c03
     color: rgba(255,255,255,1);
     position: absolute;
     top: 55px;
-    left: 0px;
+    left: 1px;
     font-family: Montserrat;
     font-weight: Regular;
     font-size: 20px;

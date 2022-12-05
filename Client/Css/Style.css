@@ -2,7 +2,7 @@ body {
     font-size: 14px;
     background-image: url(../Css/Gambar/begron.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
   }
   .v92_338 {
     width: 100%;

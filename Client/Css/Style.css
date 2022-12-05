@@ -133,8 +133,8 @@ body {
     background: rgba(8,8,74,1);
     opacity: 1;
     position: absolute;
-    top: 0px;
-    left: 2px;
+    /* top: 0px;
+    left: 2px; */
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     overflow: hidden;
@@ -143,11 +143,11 @@ body {
     width: 291px;
     color: rgba(254,160,46,1);
     position: absolute;
-    top: 40px;
-    left: 108px;
+    top: 28px;
+    left: 85px;
     font-family: Montserrat;
     font-weight: SemiBold;
-    font-size: 24px;
+    font-size: 17px;
     opacity: 1;
     text-align: left;
   }
@@ -173,16 +173,16 @@ body {
     /* border: 2px solid rgba(254,160,46,1); */
   }
   .v103_526 {
-    width: 50px;
-    height: 103px;
+    width: 30px;
+    height: 57px;
     background: url("../Css/Gambar/Logo_ecentrix.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     opacity: 1;
     position: absolute;
-    top: 9px;
-    left: 36px;
+    top: 12px;
+    left: 30px;
     overflow: hidden;
   }
   .v6_2 {
@@ -224,15 +224,15 @@ body {
     text-align: left;
   }
   .v69_415 {
-    width: 574px;
-    height: 275px;
+    width: 400px;
+    height: 140px;
     /* background-image: url(../Css/Gambar/begron_login.png); */
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     opacity: 1;
     position: absolute;
-    top: 215px;
+    top: 150px;
     left: 55px;
     overflow: hidden;
   }
@@ -244,19 +244,19 @@ body {
     left: 1px;
     font-family: Montserrat;
     font-weight: SemiBold;
-    font-size: 50px;
+    font-size: 25px;
     opacity: 1;
     text-align: left;
   }
   .v69_414 {
-    width: 574px;
+    width: 400px;
     color: rgba(255,255,255,1);
     position: absolute;
-    top: 107px;
+    top: 50px;
     left: 0px;
     font-family: Montserrat;
     font-weight: Regular;
-    font-size: 36px;
+    font-size: 15px;
     opacity: 1;
     text-align: left;
   }
@@ -285,6 +285,8 @@ body {
     opacity: 1;
     text-align: center;
   }
+
+
 
 /* body {
     background: url(../Css/Gambar/begron.png)

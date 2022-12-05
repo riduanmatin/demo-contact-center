@@ -18,13 +18,13 @@ body {
     color: #fff;
   }
   .v1_39 {
-    width: 688px;
-    height: 1010px;
+    width: 500px;
+    height: 700px;
     background: rgba(107,107,185,1);
     opacity: 1;
     position: absolute;
     top: 22px;
-    left: 1165px;
+    right: 70px;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
     border-bottom-left-radius: 12px;
@@ -128,8 +128,8 @@ body {
     text-align: left;
   }
   .v67_352 {
-    width: 690px;
-    height: 122px;
+    width: 500px;
+    height: 80px;
     background: rgba(8,8,74,1);
     opacity: 1;
     position: absolute;

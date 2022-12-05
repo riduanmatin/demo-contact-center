@@ -33,8 +33,8 @@ body {
     overflow: hidden;
   }
   .v145_576 {
-    width: 688px;
-    height: 847px;
+    width: 500px;
+    height: 600px;
     background-image: url(../Css/Gambar/begron_login.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -69,7 +69,7 @@ body {
     background: rgba(255,255,255,1);
     opacity: 1;
     position: absolute;
-    top: 607px;
+    top: 400px;
     left: 58px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -93,7 +93,7 @@ body {
     width: 100px;
     color: rgba(255,255,255,1);
     position: absolute;
-    top: 564px;
+    top: 350px;
     left: 65px;
     font-family: Montserrat;
     font-weight: SemiBold;
@@ -107,7 +107,7 @@ body {
     background: rgba(255,255,255,1);
     opacity: 1;
     position: absolute;
-    top: 747px;
+    top: 550px;
     left: 58px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -215,7 +215,7 @@ body {
     width: 100px;
     color: rgba(255,255,255,1);
     position: absolute;
-    top: 704px;
+    top: 500px;
     left: 65px;
     font-family: Montserrat;
     font-weight: SemiBold;
@@ -224,7 +224,7 @@ body {
     text-align: left;
   }
   .v69_415 {
-    width: 400px;
+    width: 280px;
     height: 140px;
     /* background-image: url(../Css/Gambar/begron_login.png); */
     background-repeat: no-repeat;
@@ -244,19 +244,19 @@ body {
     left: 1px;
     font-family: Montserrat;
     font-weight: SemiBold;
-    font-size: 25px;
+    font-size: 35px;
     opacity: 1;
     text-align: left;
   }
   .v69_414 {
-    width: 400px;
+    width: 300px;
     color: rgba(255,255,255,1);
     position: absolute;
-    top: 50px;
+    top: 55px;
     left: 0px;
     font-family: Montserrat;
     font-weight: Regular;
-    font-size: 15px;
+    font-size: 20px;
     opacity: 1;
     text-align: left;
   }

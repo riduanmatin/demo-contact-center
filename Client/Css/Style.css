@@ -36,6 +36,8 @@ body {
     width: 688px;
     height: 847px;
     background-image: url(../Css/Gambar/begron_login.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     opacity: 1;
     position: absolute;
     top: 95px;
@@ -63,10 +65,8 @@ body {
   }
   .v3_61 {
     width: 592px;
-    height: 70px;
+    height: 71px;
     background: rgba(255,255,255,1);
-    padding: 20px 24px;
-    margin: 10px;
     opacity: 1;
     position: absolute;
     top: 607px;
@@ -154,7 +154,7 @@ body {
   .v5_103 {
     width: 50px;
     height: 50px;
-    background: rgba(255,255,255,1);
+    background-color: #08084A;
     opacity: 1;
     position: absolute;
     top: 36px;
@@ -165,11 +165,12 @@ body {
     width: 37px;
     height: 37px;
     background: url("../Css/Gambar/minimize.svg");
+    background-color: #08084A;
     opacity: 1;
     position: absolute;
-    top: 6px;
-    left: 6px;
-    border: 2px solid rgba(254,160,46,1);
+    top: 5px;
+    left: 4px;
+    /* border: 2px solid rgba(254,160,46,1); */
   }
   .v103_526 {
     width: 50px;

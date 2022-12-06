@@ -21,6 +21,8 @@ body {
     width: 500px;
     height: 700px;
     background: rgba(107,107,185,1);
+    background-repeat: no-repeat;
+    background-size: cover;
     opacity: 1;
     position: absolute;
     top: 22px;
@@ -32,15 +34,15 @@ body {
     box-shadow: 10px 15px 15px rgba(0, 0, 0, 0.25);
     overflow: hidden;
   }
-  .v145_576 {
+  .background_chat_home {
     width: 500px;
-    height: 600px;
+    height: 700px;
     background-image: url(../Css/Gambar/begron_login.png);
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 1;
     position: absolute;
-    top: 95px;
+    top: 0px;
     left: 0px;
     overflow: hidden;
   }
@@ -55,22 +57,22 @@ body {
     border-radius: 50%;
   }
   .v145_578 {
-    /* width: 100%;
+    width: 100%;
     height: 868px;
     background: rgba(254,160,46,1);
     opacity: 1;
     position: absolute;
     top: 121px;
-    left: 600px; */
+    left: 600px;
   }
   .v3_61 {
-    width: 592px;
-    height: 71px;
+    width: 380px;
+    height: 47px;
     background: rgba(255,255,255,1);
     opacity: 1;
     position: absolute;
-    top: 400px;
-    left: 58px;
+    top: 380px;
+    left: 45px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -81,11 +83,11 @@ body {
     width: 199px;
     color: rgba(168,168,168,1);
     position: absolute;
-    top: 20px;
-    left: 24px;
+    top: 17px;
+    left: 22px;
     font-family: Montserrat;
     font-weight: SemiBold;
-    font-size: 20px;
+    font-size: 13px;
     opacity: 1;
     text-align: left;
   }
@@ -94,21 +96,21 @@ body {
     color: rgba(255,255,255,1);
     position: absolute;
     top: 350px;
-    left: 65px;
+    left: 45px;
     font-family: Montserrat;
     font-weight: SemiBold;
-    font-size: 24px;
+    font-size: 17px;
     opacity: 1;
     text-align: left;
   }
   .v3_64 {
-    width: 592px;
-    height: 71px;
+    width: 380px;
+    height: 47px;
     background: rgba(255,255,255,1);
     opacity: 1;
     position: absolute;
-    top: 550px;
-    left: 58px;
+    top: 480px;
+    left: 45px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -116,14 +118,14 @@ body {
     overflow: hidden;
   }
   .v3_65 {
-    width: 195px;
+    width: 199px;
     color: rgba(168,168,168,1);
     position: absolute;
-    top: 21px;
-    left: 24px;
+    top: 17px;
+    left: 22px;
     font-family: Montserrat;
     font-weight: SemiBold;
-    font-size: 20px;
+    font-size: 13px;
     opacity: 1;
     text-align: left;
   }
@@ -152,24 +154,26 @@ body {
     text-align: left;
   }
   .v5_103 {
-    width: 50px;
-    height: 50px;
+    width: 35px;
+    height: 35px;
     background-color: #08084A;
     opacity: 1;
     position: absolute;
-    top: 36px;
-    left: 623px;
+    top: 25px;
+    left: 440px;
     overflow: hidden;
   }
   .v5_104 {
-    width: 37px;
-    height: 37px;
-    background: url("../Css/Gambar/minimize.svg");
+    width: 28px;
+    height: 28px;
+    background-image:  url("../Css/Gambar/minimize.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: #08084A;
     opacity: 1;
     position: absolute;
-    top: 5px;
-    left: 4px;
+    top: 0px;
+    left: 0px;
     /* border: 2px solid rgba(254,160,46,1); */
   }
   .v103_526 {
@@ -186,13 +190,14 @@ body {
     overflow: hidden;
   }
   .v6_2 {
-    width: 110px;
-    height: 54px;
+    width: 70px;
+    height: 27px;
     background: rgba(254,160,46,1);
+    border-radius: #08084A;
     opacity: 1;
     position: absolute;
-    top: 858px;
-    left: 540px;
+    top: 550px;
+    left: 350px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -203,11 +208,11 @@ body {
     width: 67px;
     color: rgba(8,8,74,1);
     position: absolute;
-    top: 9px;
+    top: 5px;
     left: 21px;
     font-family: Montserrat;
     font-weight: SemiBold;
-    font-size: 24px;
+    font-size: 13px;
     opacity: 1;
     text-align: left;
   }
@@ -215,45 +220,44 @@ body {
     width: 100px;
     color: rgba(255,255,255,1);
     position: absolute;
-    top: 500px;
-    left: 65px;
+    top: 450px;
+    left: 45px;
     font-family: Montserrat;
     font-weight: SemiBold;
-    font-size: 24px;
+    font-size: 17px;
     opacity: 1;
     text-align: left;
   }
   .v69_415 {
     width: 280px;
     height: 140px;
-    /* background-image: url(../Css/Gambar/begron_login.png); */
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     opacity: 1;
     position: absolute;
     top: 150px;
-    left: 55px;
+    left: 45px;
     overflow: hidden;
   }
-  .v69_413 {
-    width: 217px;
+  .caption_home_1 {
+    width: 400px;
     color: rgba(255,255,255,1);
     position: absolute;
     top: 0px;
     left: 1px;
     font-family: Montserrat;
-    font-weight: SemiBold;
+    font-weight: Bold;
     font-size: 35px;
     opacity: 1;
     text-align: left;
   }
-  .v69_414 {
-    width: 300px;
+  .caption_home_2 {
+    width: 400px;
     color: rgba(255,255,255,1);
-    position: absolute;
-    top: 60px;
-    left: 0px;
+    position: relative;
+    top: 65px;
+    left: 1px;
     font-family: Montserrat;
     font-weight: Regular;
     font-size: 20px;
